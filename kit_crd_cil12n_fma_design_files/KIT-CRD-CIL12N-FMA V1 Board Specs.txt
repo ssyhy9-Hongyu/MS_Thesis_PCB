@@ -1,0 +1,19 @@
+Layers:				4
+
+Individual Board Dimensions:	6.9" x 7.7"
+
+Finished Thickness:		~0.093”
+
+Material:			FR4
+
+Surface Finish:			ENIG
+
+Copper:				2 oz
+
+Soldermask Color:		Black
+
+Soldermask Finish:		Standard
+
+Silkscreen Color:		White
+
+Silkscreen Sides:		Both

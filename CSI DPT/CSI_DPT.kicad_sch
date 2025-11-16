@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "73752a49-eb43-43a5-aaa4-eec4feca9056")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 31.75 34.29)
+		(size 27.94 15.875)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c064c2c0-555b-460b-9fb9-4dc75d50b95f")
+		(property "Sheetname" "Gate_Driver"
+			(at 31.75 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Gate_Driver.kicad_sch"
+			(at 31.75 50.7496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CSI_DPT"
+				(path "/73752a49-eb43-43a5-aaa4-eec4feca9056"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 34.29)
+		(size 29.845 15.875)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dd05f2ca-15e3-4511-b4c4-002080242daf")
+		(property "Sheetname" "Transmitter_Board"
+			(at 73.66 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Transmitter_Board.kicad_sch"
+			(at 73.66 50.7496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CSI_DPT"
+				(path "/73752a49-eb43-43a5-aaa4-eec4feca9056"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
