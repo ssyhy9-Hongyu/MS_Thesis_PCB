@@ -1,4 +1,4 @@
-26802002257411208
+26803765698188143
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62502,6 +62502,13 @@ ADM4168EBRUZ
 0
 16
 16
+Gate_Driver
+CON4_2X2_TU_SSQ
+
+SSW-102-01-G-D 
+0
+4
+4
 Gate_Driver
 OPTO_HFBR-1521Z
 

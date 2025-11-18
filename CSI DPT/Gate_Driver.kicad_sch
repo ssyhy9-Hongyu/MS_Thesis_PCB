@@ -6211,7 +6211,7 @@
 		)
 		(uuid "c6973a31-855d-42fd-86a4-e28f74247197")
 	)
-	(label "0V"
+	(label "GND1"
 		(at 87.63 160.02 180)
 		(effects
 			(font
@@ -6339,7 +6339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gate_Driver:TAJB_AVX-M"
 			(at 205.4352 43.18 0)
 			(effects
 				(font
@@ -6517,7 +6517,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
 			(at 171.45 69.215 0)
 			(effects
 				(font
@@ -6633,6 +6633,72 @@
 			(project "CSI_DPT"
 				(path "/73752a49-eb43-43a5-aaa4-eec4feca9056/c064c2c0-555b-460b-9fb9-4dc75d50b95f"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 227.33 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "192cb077-1e7b-4408-abf1-4e9ce2a2ade4")
+		(property "Reference" "TP5"
+			(at 229.87 67.8179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 229.87 70.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 232.41 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 227.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "941ea406-95b8-4657-ba6a-0f3b10a22168")
+		)
+		(instances
+			(project "CSI_DPT"
+				(path "/73752a49-eb43-43a5-aaa4-eec4feca9056/c064c2c0-555b-460b-9fb9-4dc75d50b95f"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -6928,15 +6994,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 227.33 93.98 0)
+		(at 212.09 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "308c7132-1f10-4743-9175-811e6c483ba0")
-		(property "Reference" "TP7"
-			(at 229.87 89.4079 0)
+		(uuid "3081b968-24d5-4004-8d6a-8f11db985d27")
+		(property "Reference" "TP10"
+			(at 214.63 157.9879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6945,7 +7011,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 229.87 91.9479 0)
+			(at 214.63 160.5279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6953,8 +7019,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 232.41 93.98 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 217.17 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6963,7 +7029,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 93.98 0)
+			(at 217.17 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6972,7 +7038,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 227.33 93.98 0)
+			(at 212.09 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6981,12 +7047,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a4bc4b27-9a21-4ec1-b190-c46e58433eb8")
+			(uuid "0fd8b0e5-df08-4f4b-93ab-0538558c84b2")
 		)
 		(instances
 			(project "CSI_DPT"
 				(path "/73752a49-eb43-43a5-aaa4-eec4feca9056/c064c2c0-555b-460b-9fb9-4dc75d50b95f"
-					(reference "TP7")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -7408,7 +7474,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
 			(at 138.43 153.67 0)
 			(effects
 				(font
@@ -7531,15 +7597,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 212.09 143.51 0)
+		(at 135.89 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6084f1b1-57a3-4618-87a9-8ad7b4990600")
-		(property "Reference" "TP9"
-			(at 214.63 138.9379 0)
+		(uuid "6c0c2df2-081f-45b0-8e62-4576645aa783")
+		(property "Reference" "TP2"
+			(at 138.43 46.2279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7548,7 +7614,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 214.63 141.4779 0)
+			(at 138.43 48.7679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7556,8 +7622,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 217.17 143.51 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 140.97 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7566,7 +7632,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 143.51 0)
+			(at 140.97 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7575,7 +7641,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 212.09 143.51 0)
+			(at 135.89 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7584,78 +7650,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "93335917-fb14-41f0-acc2-454fbf02dc4f")
+			(uuid "859c6087-692e-4326-9ab2-b17c77d4fccc")
 		)
 		(instances
 			(project "CSI_DPT"
 				(path "/73752a49-eb43-43a5-aaa4-eec4feca9056/c064c2c0-555b-460b-9fb9-4dc75d50b95f"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 227.33 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6b603581-a0a3-40ca-9b3d-a2a6ad3ecf62")
-		(property "Reference" "TP5"
-			(at 229.87 67.8179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 229.87 70.3579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 227.33 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "11d34fa6-0a24-41a8-8b81-e2bc027d3642")
-		)
-		(instances
-			(project "CSI_DPT"
-				(path "/73752a49-eb43-43a5-aaa4-eec4feca9056/c064c2c0-555b-460b-9fb9-4dc75d50b95f"
-					(reference "TP5")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -7762,7 +7762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 57.15 74.93 0)
 			(effects
 				(font
@@ -7897,7 +7897,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 64.77 120.9548 0)
 			(effects
 				(font
@@ -8225,79 +8225,13 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 212.09 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9ee20f0f-7cc1-42d3-919b-4575e94187ee")
-		(property "Reference" "TP10"
-			(at 214.63 157.9879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 214.63 160.5279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 212.09 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbc3852c-6c54-4c73-9513-6fba796d9d57")
-		)
-		(instances
-			(project "CSI_DPT"
-				(path "/73752a49-eb43-43a5-aaa4-eec4feca9056/c064c2c0-555b-460b-9fb9-4dc75d50b95f"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 210.82 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a0e23ea8-b7b4-4ca7-9994-555fada9b944")
+		(uuid "9e2b978c-77d8-45d1-ab23-67c1ebc552f2")
 		(property "Reference" "TP3"
 			(at 213.36 20.8279 0)
 			(effects
@@ -8316,7 +8250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 215.9 25.4 0)
 			(effects
 				(font
@@ -8344,7 +8278,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6c5ec3c4-652c-4e9f-a7ae-4a9c1d11b547")
+			(uuid "e78f7f1b-4836-4f88-a3c5-3e60fa8cc76c")
 		)
 		(instances
 			(project "CSI_DPT"
@@ -8634,15 +8568,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 227.33 81.28 0)
+		(at 227.33 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "aeb9f7f5-d7ce-43a5-9761-5c689b521a93")
-		(property "Reference" "TP6"
-			(at 229.87 76.7079 0)
+		(uuid "af15fb44-11d4-412f-8832-596fe50aa92a")
+		(property "Reference" "TP7"
+			(at 229.87 89.4079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8651,7 +8585,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 229.87 79.2479 0)
+			(at 229.87 91.9479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8659,8 +8593,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 232.41 81.28 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 232.41 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8669,7 +8603,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 81.28 0)
+			(at 232.41 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8678,7 +8612,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 227.33 81.28 0)
+			(at 227.33 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8687,12 +8621,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2f1f7688-fb41-4183-8fe3-9fd81d06cc9a")
+			(uuid "38a18a56-4117-4bb8-a88d-6536ec0730d3")
 		)
 		(instances
 			(project "CSI_DPT"
 				(path "/73752a49-eb43-43a5-aaa4-eec4feca9056/c064c2c0-555b-460b-9fb9-4dc75d50b95f"
-					(reference "TP6")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -8724,7 +8658,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
 			(at 177.8 21.59 0)
 			(effects
 				(font
@@ -8765,72 +8699,6 @@
 			(project ""
 				(path "/73752a49-eb43-43a5-aaa4-eec4feca9056/c064c2c0-555b-460b-9fb9-4dc75d50b95f"
 					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 101.6 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6b7d96e-7dc2-44bf-adb1-e7e9136fe252")
-		(property "Reference" "TP8"
-			(at 104.14 137.6679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 104.14 140.2079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 101.6 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d2b3ff06-18f9-429d-9abc-90070e409032")
-		)
-		(instances
-			(project "CSI_DPT"
-				(path "/73752a49-eb43-43a5-aaa4-eec4feca9056/c064c2c0-555b-460b-9fb9-4dc75d50b95f"
-					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -8965,6 +8833,72 @@
 			(project "CSI_DPT"
 				(path "/73752a49-eb43-43a5-aaa4-eec4feca9056/c064c2c0-555b-460b-9fb9-4dc75d50b95f"
 					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 212.09 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd823d8f-01f6-4643-9420-00261e5b0419")
+		(property "Reference" "TP9"
+			(at 214.63 138.9379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 214.63 141.4779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 217.17 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 212.09 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ae52e2d-78a0-4f54-b659-7b896bbf09dc")
+		)
+		(instances
+			(project "CSI_DPT"
+				(path "/73752a49-eb43-43a5-aaa4-eec4feca9056/c064c2c0-555b-460b-9fb9-4dc75d50b95f"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -9214,7 +9148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 44.45 74.93 0)
 			(effects
 				(font
@@ -9392,6 +9326,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 227.33 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc327fe3-f803-422e-8d87-24590a62a51b")
+		(property "Reference" "TP6"
+			(at 229.87 76.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 229.87 79.2479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 232.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 227.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "258ecf46-00f3-453a-9271-c5cdd2a3ab76")
+		)
+		(instances
+			(project "CSI_DPT"
+				(path "/73752a49-eb43-43a5-aaa4-eec4feca9056/c064c2c0-555b-460b-9fb9-4dc75d50b95f"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "deb86947-1a18-4f20-b4da-edf5a595fe3c")
+		(property "Reference" "TP8"
+			(at 104.14 137.6679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 140.2079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 106.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1f3388d-0949-4544-a3ff-557bf9900cea")
+		)
+		(instances
+			(project "CSI_DPT"
+				(path "/73752a49-eb43-43a5-aaa4-eec4feca9056/c064c2c0-555b-460b-9fb9-4dc75d50b95f"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 193.04 34.29 0)
 		(unit 1)
@@ -9529,72 +9595,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 210.82 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb996ace-47e7-4a9e-a89d-080ac16b9307")
-		(property "Reference" "TP4"
-			(at 213.36 46.2279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 213.36 48.7679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 210.82 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79fca3e9-7ef4-46dc-bc62-5d9b5de2995e")
-		)
-		(instances
-			(project "CSI_DPT"
-				(path "/73752a49-eb43-43a5-aaa4-eec4feca9056/c064c2c0-555b-460b-9fb9-4dc75d50b95f"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_1206")
 		(at 137.16 154.94 90)
 		(unit 1)
@@ -9664,15 +9664,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 135.89 50.8 0)
+		(at 210.82 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f79a551f-266c-4d26-abb8-354c071083fa")
-		(property "Reference" "TP2"
-			(at 138.43 46.2279 0)
+		(uuid "fa024ee1-15d1-4a7e-87b3-b735fb03044a")
+		(property "Reference" "TP4"
+			(at 213.36 46.2279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9681,7 +9681,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 138.43 48.7679 0)
+			(at 213.36 48.7679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9689,8 +9689,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 140.97 50.8 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 215.9 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9699,7 +9699,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 50.8 0)
+			(at 215.9 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9708,7 +9708,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 135.89 50.8 0)
+			(at 210.82 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9717,12 +9717,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "082eb003-3b91-4543-b7a3-bde28a601f28")
+			(uuid "8ee30a1b-76b7-4989-b531-92f4e372716b")
 		)
 		(instances
 			(project "CSI_DPT"
 				(path "/73752a49-eb43-43a5-aaa4-eec4feca9056/c064c2c0-555b-460b-9fb9-4dc75d50b95f"
-					(reference "TP2")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
