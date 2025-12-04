@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 73.66 60.96)
+		(size 29.21 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a68ba6e7-8db7-41fe-8172-1bc82a542448")
+		(property "Sheetname" "Tester_Board"
+			(at 73.66 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Tester_Board.kicad_sch"
+			(at 73.66 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CSI_DPT"
+				(path "/73752a49-eb43-43a5-aaa4-eec4feca9056"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 31.75 34.29)
 		(size 27.94 15.875)
 		(exclude_from_sim no)
