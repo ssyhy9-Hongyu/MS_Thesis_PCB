@@ -478,7 +478,7 @@
     ]
   },
   "meta": {
-    "filename": "CSI_DPT.kicad_pro",
+    "filename": "CSI_Tester.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -640,14 +640,6 @@
     [
       "73752a49-eb43-43a5-aaa4-eec4feca9056",
       "Root"
-    ],
-    [
-      "c064c2c0-555b-460b-9fb9-4dc75d50b95f",
-      "Gate_Driver"
-    ],
-    [
-      "dd05f2ca-15e3-4511-b4c4-002080242daf",
-      "Transmitter_Board"
     ],
     [
       "a68ba6e7-8db7-41fe-8172-1bc82a542448",

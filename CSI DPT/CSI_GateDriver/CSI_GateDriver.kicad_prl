@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "CSI_DPT.kicad_prl",
+    "filename": "CSI_GateDriver.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -100,6 +100,8 @@
       103,
       103,
       74,
+      103,
+      103,
       103,
       103
     ],
