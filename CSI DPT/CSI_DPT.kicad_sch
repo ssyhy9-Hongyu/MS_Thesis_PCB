@@ -81,6 +81,46 @@
 				(justify left top)
 			)
 		)
+		(pin "VGATE_H" output
+			(at 59.69 36.83 0)
+			(uuid "f4f7c24a-5649-412f-80b4-d868601ef220")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VGATE_L" output
+			(at 59.69 44.45 0)
+			(uuid "71a4181a-0185-423b-b8a0-27804a1ff12d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSOURCE_H" output
+			(at 59.69 39.37 0)
+			(uuid "4578b8a5-6783-4528-9668-48be1f4c339a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSOURCE_L" output
+			(at 59.69 46.99 0)
+			(uuid "afa67721-e3b0-4696-912d-85ab00360df2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "CSI_DPT"
 				(path "/73752a49-eb43-43a5-aaa4-eec4feca9056"
