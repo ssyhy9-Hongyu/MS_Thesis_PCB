@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 4.3,
-          "height": 4.3,
-          "width": 4.3
+          "drill": 2.5654,
+          "height": 3.1242,
+          "width": 3.1242
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|147000000|108000000|37680299-25dc-479f-844e-badd1b8ff9b8|3d461398-5f37-4a05-9d2a-f30475d0749f",
+          ""
+        ],
+        [
+          "copper_edge_clearance|147000000|108000000|37680299-25dc-479f-844e-badd1b8ff9b8|a51de47d-bf26-4887-a749-789b40131bbd",
+          ""
+        ],
+        [
+          "copper_edge_clearance|147605551|68000000|4b6f5ecf-86ea-4238-93e4-4ce44db59ab8|17e44cfa-f004-4aab-b236-d476e40e4cb8",
+          ""
+        ],
+        [
+          "copper_edge_clearance|147605551|68000000|4b6f5ecf-86ea-4238-93e4-4ce44db59ab8|bdaa5f9c-7c12-4b78-9037-8196ae1e4cbb",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -191,7 +208,9 @@
         0.2,
         0.4,
         0.6,
-        0.8
+        0.8,
+        1.6,
+        4.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {

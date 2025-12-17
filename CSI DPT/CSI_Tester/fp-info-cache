@@ -1,4 +1,4 @@
-26803765698188143
+26809063382520966
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2827,6 +2827,13 @@ CSI_DPT
 0
 0
 0
+CSI_DPT
+CONN_8196_KEY
+
+8196 
+0
+6
+1
 CSI_DPT
 FFSH1065B-F085
 
@@ -6334,6 +6341,13 @@ CP Radial series Radial pin pitch 5.00mm diameter 19mm supercapacitor
 0
 2
 2
+Capacitor_THT
+Untitled
+
+
+0
+0
+0
 Capacitor_Tantalum_SMD
 CP_EIA-1608-08_AVX-J
 Tantalum Capacitor SMD AVX-J (1608-08 Metric), IPC-7352 nominal, (Body size from: https://www.vishay.com/docs/48064/_t58_vmn_pt0471_1601.pdf), generated with kicad-footprint-generator
@@ -96570,6 +96584,13 @@ Power Metal Strip Resistors 0.005 to 0.2, https://www.vishay.com/docs/30101/wsr.
 SMD Shunt Resistor
 0
 4
+2
+Resistor_THT
+CVR_SSDN005
+
+
+0
+2
 2
 Resistor_THT
 R_Array_SIP4
