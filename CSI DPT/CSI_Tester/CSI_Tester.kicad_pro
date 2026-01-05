@@ -66,14 +66,6 @@
         [
           "copper_edge_clearance|147000000|108000000|37680299-25dc-479f-844e-badd1b8ff9b8|a51de47d-bf26-4887-a749-789b40131bbd",
           ""
-        ],
-        [
-          "copper_edge_clearance|147605551|68000000|4b6f5ecf-86ea-4238-93e4-4ce44db59ab8|17e44cfa-f004-4aab-b236-d476e40e4cb8",
-          ""
-        ],
-        [
-          "copper_edge_clearance|147605551|68000000|4b6f5ecf-86ea-4238-93e4-4ce44db59ab8|bdaa5f9c-7c12-4b78-9037-8196ae1e4cbb",
-          ""
         ]
       ],
       "meta": {
@@ -533,7 +525,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "PDF_single_gateDriver/",
+      "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -644,7 +636,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "PDF_single_gateDriver/",
+    "plot_directory": "Schematic_PDF/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

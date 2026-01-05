@@ -7390,16 +7390,6 @@
 		)
 		(uuid "8357c858-7b34-4da8-9081-f51b6cc4a588")
 	)
-	(label "HS_N"
-		(at 34.29 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "85e50745-7ddb-4e91-9c64-b7df05ab84e1")
-	)
 	(label "PWM_H"
 		(at 83.82 137.16 180)
 		(effects
@@ -7419,16 +7409,6 @@
 			(justify left bottom)
 		)
 		(uuid "927810df-687a-48d4-9341-d1fced880810")
-	)
-	(label "HS_P"
-		(at 34.29 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "984541a7-dae3-4f67-8405-0a51f3936392")
 	)
 	(label "LS_N"
 		(at 57.15 27.94 180)
@@ -7499,26 +7479,6 @@
 			(justify left bottom)
 		)
 		(uuid "b7acef5f-f4fd-428b-a8cc-b8a598527e24")
-	)
-	(label "LS_N"
-		(at 46.99 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "be46843e-8136-4fd5-afe1-e17361476d35")
-	)
-	(label "LS_P"
-		(at 46.99 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c3749f70-b055-430a-b23e-035c4c8d0a98")
 	)
 	(label "VIN5V"
 		(at 218.44 22.86 180)
@@ -9664,72 +9624,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 46.99 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "73bb3535-8b00-499d-91e1-14fb173305fd")
-		(property "Reference" "LS_N1"
-			(at 49.53 58.9279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LS_N"
-			(at 49.53 61.4679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 52.07 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 46.99 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8003a6c9-ac2a-4980-9dd2-1402aee95e8c")
-		)
-		(instances
-			(project "CSI_DPT"
-				(path "/73752a49-eb43-43a5-aaa4-eec4feca9056/c064c2c0-555b-460b-9fb9-4dc75d50b95f"
-					(reference "LS_N1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 207.01 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10269,72 +10163,6 @@
 			(project "CSI_DPT"
 				(path "/73752a49-eb43-43a5-aaa4-eec4feca9056/c064c2c0-555b-460b-9fb9-4dc75d50b95f"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 34.29 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "926c109a-c89f-48c5-a235-e7c04235ffce")
-		(property "Reference" "HS_P1"
-			(at 36.83 50.0379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "HS_P"
-			(at 36.83 52.5779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 39.37 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 34.29 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f673f132-d8ba-4af3-b9c3-00dea07e82f4")
-		)
-		(instances
-			(project "CSI_DPT"
-				(path "/73752a49-eb43-43a5-aaa4-eec4feca9056/c064c2c0-555b-460b-9fb9-4dc75d50b95f"
-					(reference "HS_P1")
 					(unit 1)
 				)
 			)
@@ -11585,72 +11413,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 46.99 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cc1a7bdd-92f0-4b88-a36b-453cdcfce9cb")
-		(property "Reference" "LS_P1"
-			(at 49.53 50.0379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LS_P"
-			(at 49.53 52.5779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 52.07 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 46.99 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "24cddd73-8527-456e-af74-49c28e7b30c0")
-		)
-		(instances
-			(project "CSI_DPT"
-				(path "/73752a49-eb43-43a5-aaa4-eec4feca9056/c064c2c0-555b-460b-9fb9-4dc75d50b95f"
-					(reference "LS_P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 207.01 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12005,72 +11767,6 @@
 			(project "CSI_DPT"
 				(path "/73752a49-eb43-43a5-aaa4-eec4feca9056/c064c2c0-555b-460b-9fb9-4dc75d50b95f"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 34.29 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d6588d4e-a259-46c3-9a97-9b6a6eb39de4")
-		(property "Reference" "HS_N1"
-			(at 36.83 58.9279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "HS_N"
-			(at 36.83 61.4679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 39.37 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 34.29 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff1fd98b-0f0a-4257-88ea-8e300e89ae58")
-		)
-		(instances
-			(project "CSI_DPT"
-				(path "/73752a49-eb43-43a5-aaa4-eec4feca9056/c064c2c0-555b-460b-9fb9-4dc75d50b95f"
-					(reference "HS_N1")
 					(unit 1)
 				)
 			)
